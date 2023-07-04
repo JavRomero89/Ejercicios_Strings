@@ -74,10 +74,10 @@ let long2 = name2.length;
 console.log(long1 === long2);
 
 // 18.Crea la variable bothNames y asígnale como valor la concatenación de name1 y name2.
-var bothNames = name1 + name2;
+let bothNames = name1 + name2;
 
 // Crea la variable finalLong y asígnale como valor la longitud de bothNames.
-var finalLong = bothNames.length;
+let finalLong = bothNames.length;
 
 // Muestra por consola si finalLong es estrictamente igual a la suma de long1 y long2.
 console.log(finalLong === (long1 + long2));
